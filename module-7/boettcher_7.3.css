@@ -1,0 +1,48 @@
+/* Josh Boettcher Module 7.2 2/8/2022 */ 
+body {
+    margin: 0;
+    font-family: 'EB Garamond';
+
+}
+
+header {
+    background-color: #009639;
+    border-bottom: 5px solid #c7ff3b;
+    color: whitesmoke;
+    padding: 25px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Averia Serif Libre';
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Averia Serif Libre';
+    font-weight: 200;
+}
+
+#navbar {
+    float: none;
+    position: absolute;
+    background-color: #009639;
+    font-family: 'EB Garamond';
+    top: 118px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#navbar a {
+    display: inline;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #c7ff3b;
+}
+    
+
