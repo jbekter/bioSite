@@ -105,6 +105,7 @@ h3 {
     align-items: center;
 }
 
+
 #text{
     width: 500px; 
     height:auto; 
@@ -169,7 +170,7 @@ img{
 
 #image-gallery {
     padding-left:270px;
-    position: fixed;
+    position: absolute;
     display: grid;
     grid-template-columns: auto auto auto;
 }
