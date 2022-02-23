@@ -4,6 +4,27 @@ body {
     font-family: 'EB Garamond';
 }
 
+.cece{
+    height:auto;
+    width:auto;
+}
+
+.career{
+    height: 500px;
+    width: 600px;
+}
+
+#cartext{
+    width: 600px; 
+    height:500px; 
+}
+
+.education{
+    margin-left: 20px;
+    height:auto;
+    width:600px;
+}
+
 header {
     background-color: #009639;
     color: white;
@@ -25,6 +46,14 @@ h2 {
     color:#FF6f2e;
 }
 
+h3 {
+    font-family: 'Averia Serif Libre';
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    text-decoration:underline;
+}
+
 #navbar {
     padding:10px;
     overflow: hidden;
@@ -35,18 +64,16 @@ h2 {
 }
 
 #navbar a {
+    margin:20px;
     float: none;
     color: white;
     text-align: center;
-    padding: 0px 50px;
     text-decoration: none;
     font-size: 25px;
 }
 
 #navbar a:hover {
-    color:#FF6f2e;
-    background-color: #c7ff3b;
-    padding:50px;
+    color:#c7ff3b;
 }
 
 #container {
@@ -62,11 +89,35 @@ h2 {
     height:auto;
 }
 
+#containercar{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content:center;
+    align-items: center;
+}
+
+#containeredu{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content:center;
+    align-items: center;
+}
+
 #text{
     width: 500px; 
     height:auto; 
     background-color:white;
     padding:25px;
+}
+
+.textedu{
+    margin-left:60px;
+    text-align: center;
+    width: 600px; 
+    height:auto; 
+    padding:10px;
 }
 
 figure {
@@ -78,8 +129,82 @@ figure {
 }
 
 footer {
-    position:relative;
-    padding:10px;
-    background-color: #009639;
+    text-align: center;
+    color: white;
+    z-index: 1; 
+    left: 0;
+    bottom: 0;
+    position:fixed;
+    border-top: 4px solid #c7ff3b;
+    background-color: #ff6f2e;
     width: 100%;
 }
+
+img{
+    width: 500px;
+    height: 450px;
+    border: 4px solid #2ebbff;
+}
+
+.london{
+    text-align: center;
+    margin-left:45px;
+    width: 500px;
+    height: auto;
+}
+
+.korea{
+    text-align: center;
+    margin-left:45px;
+    width: 500px;
+    height: auto;
+}
+
+.Yukgaejang{
+    text-align: center;
+    margin-left:45px;
+    width: 500px;
+    height: auto;
+}
+
+#image-gallery {
+    padding-left:270px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sidenav {
+    position: absolute;
+    padding:10px;
+    height: 100%; 
+    width: 10%; 
+    z-index: 1; 
+    background-color: #009639; 
+    border-right: 4px solid #c7ff3b;
+    border-bottom: 4px solid #c7ff3b;
+  }
+  
+  .sidenav a {
+    text-align: center;
+    text-decoration: none;
+    color: #c7ff3b;
+    display: block;
+    font-size: 14pt;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .academiclink{
+    margin-top:50px;
+  }
+
+  .careerlink{
+    margin-top:50px;
+  }
+  
+  .hobbylink{
+    margin-top:50px;
+  }
