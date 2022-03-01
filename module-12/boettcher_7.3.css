@@ -4,25 +4,23 @@ body {
     font-family: 'EB Garamond';
 }
 
-.cece{
-    height:auto;
-    width:auto;
-}
-
 .career{
     height: 500px;
-    width: 600px;
-}
+    width: auto;
+    }
 
 #cartext{
-    width: 600px; 
-    height:500px; 
+    width: 150px; 
+    text-align: left;
+    padding-left:10px;
+    padding-right:10px;
+    border: 6px solid #e8b62a;
 }
 
 .education{
-    margin-left: 20px;
-    height:auto;
-    width:600px;
+    width: 500px; 
+    height:auto; 
+    background-color:white;
 }
 
 header {
@@ -31,7 +29,9 @@ header {
     font-size: 25px;
     padding: 10px;
     text-align: center;
-    width: 100%;
+    width: 100%;    
+    z-index: 1; 
+    top: 0;
 }
 
 h1 {
@@ -77,6 +77,7 @@ h3 {
 }
 
 #container {
+    margin-left:20px;
     display: flex;
     width: auto;
     height: auto;
@@ -84,9 +85,10 @@ h3 {
     align-items: center;
   }
   
-#image{
-    width: auto; 
-    height:auto;
+
+.cece{
+    height:600px;
+    width: auto;
 }
 
 #containercar{
@@ -107,18 +109,24 @@ h3 {
 
 
 #text{
-    width: 500px; 
-    height:auto; 
+    position: relative;
+    top:-10px;
+    width: 800px; 
+    height:600px; 
     background-color:white;
-    padding:25px;
+    padding-left:10px;
+    padding-right:10px;
+    border: 6px solid #e8b62a;
 }
 
 .textedu{
-    margin-left:60px;
+    margin-left:40px;
     text-align: center;
-    width: 600px; 
+    width: 522px; 
     height:auto; 
-    padding:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 6px solid #e8b62a;
 }
 
 figure {
@@ -142,35 +150,40 @@ footer {
 }
 
 img{
-    width: 500px;
-    height: 450px;
-    border: 4px solid #2ebbff;
+    width: 450px;
+    height: 400px;
+    border: 6px solid #2ebbff;
+    padding: 10px;
 }
 
 .london{
+    border: 6px solid #e8b62a;
     text-align: center;
-    margin-left:45px;
-    width: 500px;
-    height: auto;
+    margin:10px;
+    margin-left:35px;
+    margin-right:35px;
 }
 
 .korea{
+    border: 6px solid #e8b62a;
     text-align: center;
-    margin-left:45px;
-    width: 500px;
-    height: auto;
+    margin:10px;
+    margin-left:35px;
+    margin-right:35px;
 }
 
 .Yukgaejang{
+    border: 6px solid #e8b62a;
     text-align: center;
-    margin-left:45px;
-    width: 500px;
-    height: auto;
+    margin:10px;
+    margin-left:35px;
+    margin-right:35px;
 }
 
 #image-gallery {
+    width:200px;
     padding-left:270px;
-    position: absolute;
+    position:relative;
     display: grid;
     grid-template-columns: auto auto auto;
 }
