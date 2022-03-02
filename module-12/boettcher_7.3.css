@@ -5,7 +5,7 @@ body {
 }
 
 .career{
-    height: 500px;
+    height: 250px;
     width: auto;
     }
 
@@ -84,7 +84,6 @@ h3 {
     justify-content:center;
     align-items: center;
   }
-  
 
 .cece{
     height:600px;
@@ -150,43 +149,48 @@ footer {
 }
 
 img{
-    width: 450px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     border: 6px solid #2ebbff;
     padding: 10px;
 }
 
+
 .london{
     border: 6px solid #e8b62a;
     text-align: center;
-    margin:10px;
-    margin-left:35px;
-    margin-right:35px;
+    margin:20px;
+    padding-left:10px;
+    padding-right:10px;
+
+
 }
 
 .korea{
     border: 6px solid #e8b62a;
     text-align: center;
-    margin:10px;
-    margin-left:35px;
-    margin-right:35px;
+    margin:20px;
+    padding-left:10px;
+    padding-right:10px;
+
 }
 
 .Yukgaejang{
     border: 6px solid #e8b62a;
     text-align: center;
-    margin:10px;
-    margin-left:35px;
-    margin-right:35px;
+    margin:20px;
+    padding-left:10px;
+    padding-right:10px;
+
 }
 
 #image-gallery {
-    width:200px;
     padding-left:270px;
     position:relative;
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
 
 .sidenav {
     position: absolute;
