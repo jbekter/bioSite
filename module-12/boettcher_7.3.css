@@ -185,7 +185,7 @@ img{
 }
 
 #image-gallery {
-    padding-left:270px;
+    padding-left:210px;
     position:relative;
     display: grid;
     grid-template-columns: auto auto auto;
